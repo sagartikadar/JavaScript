@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic website_ excercise 13</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        .container{
+            max-width: 70vw;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 8px;
+            background-color: black;
+          
+        }
+        .card{
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            font-family:"Roboto", serif;
+            background-color: black;
+            margin-bottom: 10px;
+        }
+        .image{
+            max-width: 20vw;
+        }
+        .image img {
+            position: relative;
+            max-width: 20vw;
+            border-radius: 8px;
+        }
+        .textt{
+            max-width: 80vw;
+            padding: 0px 7px;
+        }
+        #title{
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 8px;
+            color: white;
+        }
+        .textt2{
+            font-size: 14px;
+            font-weight: 400;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="https://i.ytimg.com/vi/CO_DAXswOrc/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD0Q3KSXFxED8GCtaS7I0MSueoD9Q" alt="">
+            </div>
+            <div class="textt">
+                <div id="title">Events, Event Bubbling, setInterval &amp; setTimeout | Sigma Web Development Course - Tutorial #74</div>
+                <div class="textt2">
+                    <span id="channel_name">CodeWithHarry . </span>
+                    <span id="views">777k . </span>
+                    <span id="age">2 months ago</span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
